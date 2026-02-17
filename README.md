@@ -1,16 +1,33 @@
-# React + Vite
+# Aura – Personal Productivity Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Aura** is a modern **React + Vite** application designed to help users track their **daily tasks, goals, and habits** in a clean, interactive, and visually appealing interface. Built with **React 18**, **Vite**, and **Tailwind CSS**, Aura leverages lazy loading, dark mode support, and notifications to provide a smooth and responsive experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Dashboard** – Overview of completed tasks, active goals, and habit streaks. Includes visual stats and charts.
+- **Daily Tasks** – Add, toggle, and delete tasks easily. Completed tasks are tracked for quick analytics.
+- **Goals / Targets** – Create and monitor progress of personal goals with completion status.
+- **Habits / Practices** – Track recurring habits and maintain streaks.
+- **Dark Mode** – Switch between light and dark themes with local persistence.
+- **Notifications** – Receive in-app notifications for task completion, goal updates, and habit streaks.
+- **Persistence** – All tasks, goals, habits, and settings are saved in **localStorage**.
+- **Responsive Design** – Works seamlessly on desktop and mobile devices.
+- **Lazy Loading** – Components are loaded only when needed to improve performance.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React 18 + Vite + Tailwind CSS  
+- **Icons:** Lucide React  
+- **State Management:** React Hooks (`useState`, `useEffect`, `useMemo`)  
+- **Routing / Views:** Lazy-loaded views with `Suspense`  
+- **Persistence:** LocalStorage  
+
+---
+
+## Live Demo
+
+Check out Aura here: http://internal-icicle.surge.sh/
